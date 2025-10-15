@@ -69,7 +69,7 @@ python src/main.py --input arquivo_fonte --output saida.asm
 ## 👥 Desenvolvimento
 
 - **Disciplina**: Compiladores
-- **Instituição**: IFMT - 2025/2
+- **Instituição**: IFMT - Campus Octayde Jorge - 2025/2
 - **Desenvolvedores**:
   - [Gabriel Foloni](https://github.com/Fologne)
   - [Danilo Vinicius](https://github.com/danilovinicius51)

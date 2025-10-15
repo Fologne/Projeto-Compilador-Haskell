@@ -1,0 +1,13 @@
+*
+!.gitignore
+!Haskell.g4
+!Haskell.interp
+!Haskell.tokens
+!HaskellLexer.interp
+!HaskellLexer.py
+!HaskellLexer.tokens
+!HaskellListener.py
+!HaskellParser.py
+!main.py
+!README.md
+!teste.hs

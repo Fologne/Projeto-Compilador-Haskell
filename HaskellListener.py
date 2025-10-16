@@ -53,6 +53,15 @@ class HaskellListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by HaskellParser#declaracao_let.
+    def enterDeclaracao_let(self, ctx:HaskellParser.Declaracao_letContext):
+        pass
+
+    # Exit a parse tree produced by HaskellParser#declaracao_let.
+    def exitDeclaracao_let(self, ctx:HaskellParser.Declaracao_letContext):
+        pass
+
+
     # Enter a parse tree produced by HaskellParser#escrita.
     def enterEscrita(self, ctx:HaskellParser.EscritaContext):
         pass
@@ -86,6 +95,15 @@ class HaskellListener(ParseTreeListener):
 
     # Exit a parse tree produced by HaskellParser#enquanto.
     def exitEnquanto(self, ctx:HaskellParser.EnquantoContext):
+        pass
+
+
+    # Enter a parse tree produced by HaskellParser#bloco.
+    def enterBloco(self, ctx:HaskellParser.BlocoContext):
+        pass
+
+    # Exit a parse tree produced by HaskellParser#bloco.
+    def exitBloco(self, ctx:HaskellParser.BlocoContext):
         pass
 
 

@@ -4,15 +4,13 @@ program: 'main' '::' 'IO' '()' 'main' '=' 'do' '{' lista_declaracao* '}' EOF;
 
 //lista de declaracoes do programa
 lista_declaracao: bloco;
-declaracao: atribuicao | escrita | leitura | se | enquanto | declaracao_let;
+declaracao: atribuicao | escrita | leitura | se | enquanto;
 
 //atribuicao de tipos inteiro e double
 atribuicao:
       identificador '=' expressao
     | LET identificador ('=' 'read' identificador '::' tipo | '=' expressao)?;
 tipo: INT_T | DOUBLE_T;
-declaracao_let: 'let' identificador ('=' 'read' identificador '::' tipo | '=' expressao);
-
 
 //declaracao do sistema de escrita, leitura, se e senao e enquanto
 escrita: 'putStrLn' (STRING ('++' expressao)? | expressao);

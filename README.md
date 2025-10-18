@@ -39,10 +39,10 @@ O objetivo é criar um compilador que reconheça e traduza programas escritos em
  ## Configuração do Ambiente
 ```bash
 # Criar ambiente virtual
-python -m venv virtual
+python -m venv venv
 
 # Ativar (Windows)
-virtual\Scripts\activate
+venv\Scripts\activate
 
 # Instalar dependências
 pip install -r requirements.txt
@@ -52,16 +52,14 @@ pip install -r requirements.txt
 # Instalar runtime do ANTLR para Python
 pip install antlr4-python3-runtime
 
-# Ou via requirements.txt
-pip install -r requirements.txt
 ```
 ## Execução do Compilador
 ```bash
 # Gerar arquivos semanticos baseados em nossa pseudolinguagem
-java -jar ./antlr-4.13.1-complete.jar -Dlanguage=Python3 gramaticaC.g4
+java -jar ./antlr-4.13.1-complete.jar -Dlanguage=Python3 Haskell.g4
 
 # Executar o compilador
-python.exe main.py .\arquivofonte.c
+python.exe main.py .\teste.hs
 
 # Ou com mais opções
 python src/main.py --input arquivo_fonte --output saida.asm

@@ -32,11 +32,8 @@ O objetivo é criar um compilador que reconheça e traduza programas escritos em
  while(condição){
        // bloco executado enquanto a condição for verdadeira
  }
- do{
-      // bloco executado ao menos uma vez
- } while(condição)
-
- ## Configuração do Ambiente
+```
+## Configuração do Ambiente
 ```bash
 # Criar ambiente virtual
 python -m venv venv

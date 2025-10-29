@@ -8,11 +8,11 @@ main = do{
         let j = 0
         let valor = 1
         while j<=i do
-            putStrLn valor
+            putStrLn valor " "
             valor = valor * (i-j)/(j+1)
             j = j + 1
             end
-        putStrLn " "
+        putStrLn "/n"
         i = i + 1
         end
     putStrLn "Digite o primeiro lado do triangulo:"

@@ -32,6 +32,7 @@ expressao:
     | expressao '<=' expressao
     | expressao '+' termo
     | expressao '-' termo
+    | expressao '++' termo
     | termo;
 
 
@@ -45,7 +46,8 @@ fator:
     | '-' fator
     | inteiro
     | real
-    | identificador;
+    | identificador
+    | STRING;
 
 //declaracao do tipo int double e o identificador
 inteiro: '-'? INT;

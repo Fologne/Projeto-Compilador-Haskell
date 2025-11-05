@@ -57,7 +57,7 @@ pip install antlr4-python3-runtime
 java -jar ./antlr-4.13.1-complete.jar -Dlanguage=Python3 Haskell.g4
 
 # Executar o compilador
-python.exe main.py .\teste.hs
+python.exe main.py .\Exercicio1e2.hs
 
 # Ou com mais opções
 python src/main.py --input arquivo_fonte --output saida.asm

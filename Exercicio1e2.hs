@@ -8,15 +8,13 @@ main = do{
         let j = 0
         let valor = 1
         while j<=i do
-            while j <= i do
-                putStrLn valor ++ " "
-                valor = valor * (i - j) / (j + 1)
-                j = j + 1
-                end
-            end
-        putStrLn "/n"
-        i = i + 1
+            putStrLn valor ++ " "
+            valor = valor * (i - j) / (j + 1)
+            j = j + 1
         end
+        putStrLn "\n"
+        i = i + 1
+    end
     putStrLn "Digite o primeiro lado do triangulo:"
     aInput <- getLine
     putStrLn "Digite o segundo lado do triangulo:"

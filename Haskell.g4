@@ -47,6 +47,7 @@ fator:
     | inteiro
     | real
     | identificador
+    | 'read' identificador '::' tipo
     | STRING;
 
 //declaracao do tipo int double e o identificador

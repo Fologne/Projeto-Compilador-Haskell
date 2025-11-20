@@ -10,7 +10,7 @@ else:
 
 def serializedATN():
     return [
-        4,1,41,196,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,41,201,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,13,
         2,14,7,14,2,15,7,15,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,5,0,42,8,
         0,10,0,12,0,45,9,0,1,0,1,0,1,0,1,1,1,1,1,2,1,2,1,2,1,2,1,2,3,2,57,
@@ -23,62 +23,64 @@ def serializedATN():
         10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,5,
         10,153,8,10,10,10,12,10,156,9,10,1,11,1,11,1,11,1,11,1,11,1,11,1,
         11,1,11,1,11,5,11,167,8,11,10,11,12,11,170,9,11,1,12,1,12,1,12,1,
-        12,1,12,1,12,1,12,1,12,1,12,1,12,3,12,182,8,12,1,13,3,13,185,8,13,
-        1,13,1,13,1,14,3,14,190,8,14,1,14,1,14,1,15,1,15,1,15,0,2,20,22,
-        16,0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,0,1,1,0,34,35,213,
-        0,32,1,0,0,0,2,49,1,0,0,0,4,56,1,0,0,0,6,74,1,0,0,0,8,76,1,0,0,0,
-        10,78,1,0,0,0,12,87,1,0,0,0,14,93,1,0,0,0,16,102,1,0,0,0,18,109,
-        1,0,0,0,20,117,1,0,0,0,22,157,1,0,0,0,24,181,1,0,0,0,26,184,1,0,
-        0,0,28,189,1,0,0,0,30,193,1,0,0,0,32,33,5,1,0,0,33,34,5,2,0,0,34,
-        35,5,3,0,0,35,36,5,4,0,0,36,37,5,1,0,0,37,38,5,5,0,0,38,39,5,6,0,
-        0,39,43,5,7,0,0,40,42,3,2,1,0,41,40,1,0,0,0,42,45,1,0,0,0,43,41,
-        1,0,0,0,43,44,1,0,0,0,44,46,1,0,0,0,45,43,1,0,0,0,46,47,5,8,0,0,
-        47,48,5,0,0,1,48,1,1,0,0,0,49,50,3,18,9,0,50,3,1,0,0,0,51,57,3,6,
-        3,0,52,57,3,10,5,0,53,57,3,12,6,0,54,57,3,14,7,0,55,57,3,16,8,0,
-        56,51,1,0,0,0,56,52,1,0,0,0,56,53,1,0,0,0,56,54,1,0,0,0,56,55,1,
-        0,0,0,57,5,1,0,0,0,58,59,3,30,15,0,59,60,5,5,0,0,60,61,3,20,10,0,
-        61,75,1,0,0,0,62,63,5,36,0,0,63,72,3,30,15,0,64,65,5,5,0,0,65,66,
-        5,9,0,0,66,67,3,30,15,0,67,68,5,2,0,0,68,69,3,8,4,0,69,73,1,0,0,
-        0,70,71,5,5,0,0,71,73,3,20,10,0,72,64,1,0,0,0,72,70,1,0,0,0,72,73,
-        1,0,0,0,73,75,1,0,0,0,74,58,1,0,0,0,74,62,1,0,0,0,75,7,1,0,0,0,76,
-        77,7,0,0,0,77,9,1,0,0,0,78,85,5,10,0,0,79,82,5,39,0,0,80,81,5,11,
-        0,0,81,83,3,20,10,0,82,80,1,0,0,0,82,83,1,0,0,0,83,86,1,0,0,0,84,
-        86,3,20,10,0,85,79,1,0,0,0,85,84,1,0,0,0,86,11,1,0,0,0,87,88,3,30,
-        15,0,88,89,5,12,0,0,89,91,5,13,0,0,90,92,3,6,3,0,91,90,1,0,0,0,91,
-        92,1,0,0,0,92,13,1,0,0,0,93,94,5,14,0,0,94,95,3,20,10,0,95,96,5,
-        15,0,0,96,97,3,18,9,0,97,100,5,16,0,0,98,101,3,14,7,0,99,101,3,18,
-        9,0,100,98,1,0,0,0,100,99,1,0,0,0,101,15,1,0,0,0,102,103,5,17,0,
-        0,103,104,3,20,10,0,104,105,5,6,0,0,105,106,3,18,9,0,106,107,5,18,
-        0,0,107,17,1,0,0,0,108,110,3,4,2,0,109,108,1,0,0,0,110,111,1,0,0,
-        0,111,109,1,0,0,0,111,112,1,0,0,0,112,19,1,0,0,0,113,114,6,10,-1,
-        0,114,115,5,21,0,0,115,118,3,20,10,11,116,118,3,22,11,0,117,113,
-        1,0,0,0,117,116,1,0,0,0,118,154,1,0,0,0,119,120,10,13,0,0,120,121,
-        5,19,0,0,121,153,3,20,10,14,122,123,10,12,0,0,123,124,5,20,0,0,124,
-        153,3,20,10,13,125,126,10,10,0,0,126,127,5,22,0,0,127,153,3,20,10,
-        11,128,129,10,9,0,0,129,130,5,23,0,0,130,153,3,20,10,10,131,132,
-        10,8,0,0,132,133,5,24,0,0,133,153,3,20,10,9,134,135,10,7,0,0,135,
-        136,5,25,0,0,136,153,3,20,10,8,137,138,10,6,0,0,138,139,5,26,0,0,
-        139,153,3,20,10,7,140,141,10,5,0,0,141,142,5,27,0,0,142,153,3,20,
-        10,6,143,144,10,4,0,0,144,145,5,28,0,0,145,153,3,22,11,0,146,147,
-        10,3,0,0,147,148,5,29,0,0,148,153,3,22,11,0,149,150,10,2,0,0,150,
-        151,5,11,0,0,151,153,3,22,11,0,152,119,1,0,0,0,152,122,1,0,0,0,152,
-        125,1,0,0,0,152,128,1,0,0,0,152,131,1,0,0,0,152,134,1,0,0,0,152,
-        137,1,0,0,0,152,140,1,0,0,0,152,143,1,0,0,0,152,146,1,0,0,0,152,
-        149,1,0,0,0,153,156,1,0,0,0,154,152,1,0,0,0,154,155,1,0,0,0,155,
-        21,1,0,0,0,156,154,1,0,0,0,157,158,6,11,-1,0,158,159,3,24,12,0,159,
-        168,1,0,0,0,160,161,10,3,0,0,161,162,5,30,0,0,162,167,3,24,12,0,
-        163,164,10,2,0,0,164,165,5,31,0,0,165,167,3,24,12,0,166,160,1,0,
-        0,0,166,163,1,0,0,0,167,170,1,0,0,0,168,166,1,0,0,0,168,169,1,0,
-        0,0,169,23,1,0,0,0,170,168,1,0,0,0,171,172,5,32,0,0,172,173,3,20,
-        10,0,173,174,5,33,0,0,174,182,1,0,0,0,175,176,5,29,0,0,176,182,3,
-        24,12,0,177,182,3,26,13,0,178,182,3,28,14,0,179,182,3,30,15,0,180,
-        182,5,39,0,0,181,171,1,0,0,0,181,175,1,0,0,0,181,177,1,0,0,0,181,
-        178,1,0,0,0,181,179,1,0,0,0,181,180,1,0,0,0,182,25,1,0,0,0,183,185,
-        5,29,0,0,184,183,1,0,0,0,184,185,1,0,0,0,185,186,1,0,0,0,186,187,
-        5,38,0,0,187,27,1,0,0,0,188,190,5,29,0,0,189,188,1,0,0,0,189,190,
-        1,0,0,0,190,191,1,0,0,0,191,192,5,37,0,0,192,29,1,0,0,0,193,194,
-        5,40,0,0,194,31,1,0,0,0,17,43,56,72,74,82,85,91,100,111,117,152,
-        154,166,168,181,184,189
+        12,1,12,1,12,1,12,1,12,1,12,1,12,1,12,1,12,1,12,1,12,1,12,3,12,187,
+        8,12,1,13,3,13,190,8,13,1,13,1,13,1,14,3,14,195,8,14,1,14,1,14,1,
+        15,1,15,1,15,0,2,20,22,16,0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,
+        30,0,1,1,0,34,35,219,0,32,1,0,0,0,2,49,1,0,0,0,4,56,1,0,0,0,6,74,
+        1,0,0,0,8,76,1,0,0,0,10,78,1,0,0,0,12,87,1,0,0,0,14,93,1,0,0,0,16,
+        102,1,0,0,0,18,109,1,0,0,0,20,117,1,0,0,0,22,157,1,0,0,0,24,186,
+        1,0,0,0,26,189,1,0,0,0,28,194,1,0,0,0,30,198,1,0,0,0,32,33,5,1,0,
+        0,33,34,5,2,0,0,34,35,5,3,0,0,35,36,5,4,0,0,36,37,5,1,0,0,37,38,
+        5,5,0,0,38,39,5,6,0,0,39,43,5,7,0,0,40,42,3,2,1,0,41,40,1,0,0,0,
+        42,45,1,0,0,0,43,41,1,0,0,0,43,44,1,0,0,0,44,46,1,0,0,0,45,43,1,
+        0,0,0,46,47,5,8,0,0,47,48,5,0,0,1,48,1,1,0,0,0,49,50,3,18,9,0,50,
+        3,1,0,0,0,51,57,3,6,3,0,52,57,3,10,5,0,53,57,3,12,6,0,54,57,3,14,
+        7,0,55,57,3,16,8,0,56,51,1,0,0,0,56,52,1,0,0,0,56,53,1,0,0,0,56,
+        54,1,0,0,0,56,55,1,0,0,0,57,5,1,0,0,0,58,59,3,30,15,0,59,60,5,5,
+        0,0,60,61,3,20,10,0,61,75,1,0,0,0,62,63,5,36,0,0,63,72,3,30,15,0,
+        64,65,5,5,0,0,65,66,5,9,0,0,66,67,3,30,15,0,67,68,5,2,0,0,68,69,
+        3,8,4,0,69,73,1,0,0,0,70,71,5,5,0,0,71,73,3,20,10,0,72,64,1,0,0,
+        0,72,70,1,0,0,0,72,73,1,0,0,0,73,75,1,0,0,0,74,58,1,0,0,0,74,62,
+        1,0,0,0,75,7,1,0,0,0,76,77,7,0,0,0,77,9,1,0,0,0,78,85,5,10,0,0,79,
+        82,5,39,0,0,80,81,5,11,0,0,81,83,3,20,10,0,82,80,1,0,0,0,82,83,1,
+        0,0,0,83,86,1,0,0,0,84,86,3,20,10,0,85,79,1,0,0,0,85,84,1,0,0,0,
+        86,11,1,0,0,0,87,88,3,30,15,0,88,89,5,12,0,0,89,91,5,13,0,0,90,92,
+        3,6,3,0,91,90,1,0,0,0,91,92,1,0,0,0,92,13,1,0,0,0,93,94,5,14,0,0,
+        94,95,3,20,10,0,95,96,5,15,0,0,96,97,3,18,9,0,97,100,5,16,0,0,98,
+        101,3,14,7,0,99,101,3,18,9,0,100,98,1,0,0,0,100,99,1,0,0,0,101,15,
+        1,0,0,0,102,103,5,17,0,0,103,104,3,20,10,0,104,105,5,6,0,0,105,106,
+        3,18,9,0,106,107,5,18,0,0,107,17,1,0,0,0,108,110,3,4,2,0,109,108,
+        1,0,0,0,110,111,1,0,0,0,111,109,1,0,0,0,111,112,1,0,0,0,112,19,1,
+        0,0,0,113,114,6,10,-1,0,114,115,5,21,0,0,115,118,3,20,10,11,116,
+        118,3,22,11,0,117,113,1,0,0,0,117,116,1,0,0,0,118,154,1,0,0,0,119,
+        120,10,13,0,0,120,121,5,19,0,0,121,153,3,20,10,14,122,123,10,12,
+        0,0,123,124,5,20,0,0,124,153,3,20,10,13,125,126,10,10,0,0,126,127,
+        5,22,0,0,127,153,3,20,10,11,128,129,10,9,0,0,129,130,5,23,0,0,130,
+        153,3,20,10,10,131,132,10,8,0,0,132,133,5,24,0,0,133,153,3,20,10,
+        9,134,135,10,7,0,0,135,136,5,25,0,0,136,153,3,20,10,8,137,138,10,
+        6,0,0,138,139,5,26,0,0,139,153,3,20,10,7,140,141,10,5,0,0,141,142,
+        5,27,0,0,142,153,3,20,10,6,143,144,10,4,0,0,144,145,5,28,0,0,145,
+        153,3,22,11,0,146,147,10,3,0,0,147,148,5,29,0,0,148,153,3,22,11,
+        0,149,150,10,2,0,0,150,151,5,11,0,0,151,153,3,22,11,0,152,119,1,
+        0,0,0,152,122,1,0,0,0,152,125,1,0,0,0,152,128,1,0,0,0,152,131,1,
+        0,0,0,152,134,1,0,0,0,152,137,1,0,0,0,152,140,1,0,0,0,152,143,1,
+        0,0,0,152,146,1,0,0,0,152,149,1,0,0,0,153,156,1,0,0,0,154,152,1,
+        0,0,0,154,155,1,0,0,0,155,21,1,0,0,0,156,154,1,0,0,0,157,158,6,11,
+        -1,0,158,159,3,24,12,0,159,168,1,0,0,0,160,161,10,3,0,0,161,162,
+        5,30,0,0,162,167,3,24,12,0,163,164,10,2,0,0,164,165,5,31,0,0,165,
+        167,3,24,12,0,166,160,1,0,0,0,166,163,1,0,0,0,167,170,1,0,0,0,168,
+        166,1,0,0,0,168,169,1,0,0,0,169,23,1,0,0,0,170,168,1,0,0,0,171,172,
+        5,32,0,0,172,173,3,20,10,0,173,174,5,33,0,0,174,187,1,0,0,0,175,
+        176,5,29,0,0,176,187,3,24,12,0,177,187,3,26,13,0,178,187,3,28,14,
+        0,179,187,3,30,15,0,180,181,5,9,0,0,181,182,3,30,15,0,182,183,5,
+        2,0,0,183,184,3,8,4,0,184,187,1,0,0,0,185,187,5,39,0,0,186,171,1,
+        0,0,0,186,175,1,0,0,0,186,177,1,0,0,0,186,178,1,0,0,0,186,179,1,
+        0,0,0,186,180,1,0,0,0,186,185,1,0,0,0,187,25,1,0,0,0,188,190,5,29,
+        0,0,189,188,1,0,0,0,189,190,1,0,0,0,190,191,1,0,0,0,191,192,5,38,
+        0,0,192,27,1,0,0,0,193,195,5,29,0,0,194,193,1,0,0,0,194,195,1,0,
+        0,0,195,196,1,0,0,0,196,197,5,37,0,0,197,29,1,0,0,0,198,199,5,40,
+        0,0,199,31,1,0,0,0,17,43,56,72,74,82,85,91,100,111,117,152,154,166,
+        168,186,189,194
     ]
 
 class HaskellParser ( Parser ):
@@ -210,6 +212,12 @@ class HaskellParser ( Parser ):
             if hasattr( listener, "exitProgram" ):
                 listener.exitProgram(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitProgram" ):
+                return visitor.visitProgram(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -281,6 +289,12 @@ class HaskellParser ( Parser ):
             if hasattr( listener, "exitLista_declaracao" ):
                 listener.exitLista_declaracao(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitLista_declaracao" ):
+                return visitor.visitLista_declaracao(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -338,6 +352,12 @@ class HaskellParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitDeclaracao" ):
                 listener.exitDeclaracao(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitDeclaracao" ):
+                return visitor.visitDeclaracao(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -426,6 +446,12 @@ class HaskellParser ( Parser ):
             if hasattr( listener, "exitAtribuicao" ):
                 listener.exitAtribuicao(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitAtribuicao" ):
+                return visitor.visitAtribuicao(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -511,6 +537,12 @@ class HaskellParser ( Parser ):
             if hasattr( listener, "exitTipo" ):
                 listener.exitTipo(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitTipo" ):
+                return visitor.visitTipo(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -561,6 +593,12 @@ class HaskellParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitEscrita" ):
                 listener.exitEscrita(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitEscrita" ):
+                return visitor.visitEscrita(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -633,6 +671,12 @@ class HaskellParser ( Parser ):
             if hasattr( listener, "exitLeitura" ):
                 listener.exitLeitura(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitLeitura" ):
+                return visitor.visitLeitura(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -697,6 +741,12 @@ class HaskellParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitSe" ):
                 listener.exitSe(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitSe" ):
+                return visitor.visitSe(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -767,6 +817,12 @@ class HaskellParser ( Parser ):
             if hasattr( listener, "exitEnquanto" ):
                 listener.exitEnquanto(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitEnquanto" ):
+                return visitor.visitEnquanto(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -819,6 +875,12 @@ class HaskellParser ( Parser ):
         def exitRule(self, listener:ParseTreeListener):
             if hasattr( listener, "exitBloco" ):
                 listener.exitBloco(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitBloco" ):
+                return visitor.visitBloco(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -881,6 +943,12 @@ class HaskellParser ( Parser ):
             if hasattr( listener, "exitExpressao" ):
                 listener.exitExpressao(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitExpressao" ):
+                return visitor.visitExpressao(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
     def expressao(self, _p:int=0):
@@ -901,7 +969,7 @@ class HaskellParser ( Parser ):
                 self.state = 115
                 self.expressao(11)
                 pass
-            elif token in [29, 32, 37, 38, 39, 40]:
+            elif token in [9, 29, 32, 37, 38, 39, 40]:
                 self.state = 116
                 self.termo(0)
                 pass
@@ -1103,6 +1171,12 @@ class HaskellParser ( Parser ):
             if hasattr( listener, "exitTermo" ):
                 listener.exitTermo(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitTermo" ):
+                return visitor.visitTermo(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
     def termo(self, _p:int=0):
@@ -1195,6 +1269,10 @@ class HaskellParser ( Parser ):
             return self.getTypedRuleContext(HaskellParser.IdentificadorContext,0)
 
 
+        def tipo(self):
+            return self.getTypedRuleContext(HaskellParser.TipoContext,0)
+
+
         def STRING(self):
             return self.getToken(HaskellParser.STRING, 0)
 
@@ -1209,6 +1287,12 @@ class HaskellParser ( Parser ):
             if hasattr( listener, "exitFator" ):
                 listener.exitFator(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitFator" ):
+                return visitor.visitFator(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -1217,7 +1301,7 @@ class HaskellParser ( Parser ):
         localctx = HaskellParser.FatorContext(self, self._ctx, self.state)
         self.enterRule(localctx, 24, self.RULE_fator)
         try:
-            self.state = 181
+            self.state = 186
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,14,self._ctx)
             if la_ == 1:
@@ -1259,6 +1343,18 @@ class HaskellParser ( Parser ):
             elif la_ == 6:
                 self.enterOuterAlt(localctx, 6)
                 self.state = 180
+                self.match(HaskellParser.T__8)
+                self.state = 181
+                self.identificador()
+                self.state = 182
+                self.match(HaskellParser.T__1)
+                self.state = 183
+                self.tipo()
+                pass
+
+            elif la_ == 7:
+                self.enterOuterAlt(localctx, 7)
+                self.state = 185
                 self.match(HaskellParser.STRING)
                 pass
 
@@ -1293,6 +1389,12 @@ class HaskellParser ( Parser ):
             if hasattr( listener, "exitInteiro" ):
                 listener.exitInteiro(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitInteiro" ):
+                return visitor.visitInteiro(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -1303,15 +1405,15 @@ class HaskellParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 184
+            self.state = 189
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==29:
-                self.state = 183
+                self.state = 188
                 self.match(HaskellParser.T__28)
 
 
-            self.state = 186
+            self.state = 191
             self.match(HaskellParser.INT)
         except RecognitionException as re:
             localctx.exception = re
@@ -1343,6 +1445,12 @@ class HaskellParser ( Parser ):
             if hasattr( listener, "exitReal" ):
                 listener.exitReal(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitReal" ):
+                return visitor.visitReal(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -1353,15 +1461,15 @@ class HaskellParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 189
+            self.state = 194
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==29:
-                self.state = 188
+                self.state = 193
                 self.match(HaskellParser.T__28)
 
 
-            self.state = 191
+            self.state = 196
             self.match(HaskellParser.DOUBLE)
         except RecognitionException as re:
             localctx.exception = re
@@ -1393,6 +1501,12 @@ class HaskellParser ( Parser ):
             if hasattr( listener, "exitIdentificador" ):
                 listener.exitIdentificador(self)
 
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitIdentificador" ):
+                return visitor.visitIdentificador(self)
+            else:
+                return visitor.visitChildren(self)
+
 
 
 
@@ -1402,7 +1516,7 @@ class HaskellParser ( Parser ):
         self.enterRule(localctx, 30, self.RULE_identificador)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 193
+            self.state = 198
             self.match(HaskellParser.ID)
         except RecognitionException as re:
             localctx.exception = re

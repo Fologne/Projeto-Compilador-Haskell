@@ -3,6 +3,8 @@
 Este projeto consiste na implementação de um **compilador simples** inspirado na linguagem **Haskell**, desenvolvido como parte de estudos de **compiladores e linguagens formais**.  
 O objetivo é criar um compilador que reconheça e traduza programas escritos em uma linguagem simplificada, contendo **tipos primitivos, estruturas de controle, entrada/saída e expressões**.
 O projeto possui "licenças poéticas", como o while que não é nativo em **Haskell**, reforçando que é um **projeto para faculdade** e que isto foi autorizado pelo professor da matéria.
+Foi utilizado para geração de código, C ao invés de Assembly, para fins práticos e por causa do tempo curto para implementação.
+
 
 ---
 
@@ -59,8 +61,9 @@ java -jar ./antlr-4.13.1-complete.jar -Dlanguage=Python3 Haskell.g4
 # Executar o compilador
 python.exe main.py .\Exercicio1e2.hs
 
-# Ou com mais opções
-python src/main.py --input arquivo_fonte --output saida.asm
+# Para executar o arquivo C
+gcc *.c -o main.exe
+./main.exe
 ```
 ## 👥 Desenvolvimento
 

@@ -2,6 +2,7 @@ from HaskellVisitor import HaskellVisitor
 from HaskellParser import HaskellParser
 
 class CodeGenC(HaskellVisitor):
+    #inicialização da geração de codigo
     def __init__(self):
         self.output = []
         self.indent_level = 0
@@ -53,7 +54,7 @@ class CodeGenC(HaskellVisitor):
         self.emit("int main() {")
         self.indent_level += 1
 
-        # visit declarations
+        # visita a lista de declaracao
         lista = ctx.lista_declaracao()
         if isinstance(lista, list):
             for d in lista:
@@ -67,7 +68,7 @@ class CodeGenC(HaskellVisitor):
         return self.get_output()
 
     # --------------------------
-    # Lista e Bloco
+    # Lista e Bloco de declarações
     # --------------------------
     def visitLista_declaracao(self, ctx):
         return self.visit(ctx.bloco())
@@ -82,7 +83,7 @@ class CodeGenC(HaskellVisitor):
         return None
 
     # --------------------------
-    # Atribuição
+    # Atribuição de variaveis
     # --------------------------
     def visitAtribuicao(self, ctx):
         # get identifier target

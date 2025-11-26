@@ -14,7 +14,7 @@ tipo: INT_T | DOUBLE_T;
 
 //declaracao do sistema de escrita, leitura, se e senao e enquanto
 escrita: 'putStrLn' (STRING ('++' expressao)? | expressao);
-leitura: identificador '<-' 'getLine' atribuicao?;
+leitura: identificador '<-' 'getLine';
 se: 'if' expressao 'then' bloco ('else' (se | bloco));
 enquanto: 'while' expressao 'do' bloco 'end';
 bloco: declaracao+;

@@ -1,8 +1,11 @@
+import sys
 from antlr4 import *
 from HaskellLexer import HaskellLexer
 from HaskellParser import HaskellParser
 from graphviz import Digraph
 from CodeGenC import CodeGenC
+from SemanticAnalyzer import SemanticAnalyzer
+
 
 def draw_tree(node, parser, graph, parent_id=None, node_id=0):
     if hasattr(node, 'getRuleIndex'):
@@ -33,6 +36,15 @@ def main():
     graph = Digraph(comment='Árvore Sintática', format='png')
     draw_tree(tree, parser, graph)
     graph.render('arvore_sintatica', view=True)
+    #analise semantica
+    print("Realizando análise semântica...")
+    sem = SemanticAnalyzer()
+    try:
+        sem.visit(tree)
+        print("Análise semântica concluída sem erros.")
+    except Exception as e:
+        print(f"\nERRO SEMÂNTICO: {e}")
+        sys.exit(1)    
     #Gera o codigo em C e salva no output.c
     codegen = CodeGenC()
     codegen.visit(tree)

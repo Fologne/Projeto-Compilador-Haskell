@@ -201,17 +201,17 @@ class CodeGenC(HaskellVisitor):
     # --------------------------
     def visitLeitura(self, ctx):
         ident = self._text(self._first(ctx.identificador()))
+
+        # Se a variável ainda não foi declarada, declare como string
         if ident not in self.variables:
             self.variables[ident] = "string"
             self.emit(f"char {ident}[128];")
-        # read line into buffer
+
+        # Ler uma string via scanf
         self.emit(f'scanf("%127s", {ident});')
-        # if there's an atribuicao after getLine (per grammar) it will be visited by parent visitor flow
-        atrib = self._first(ctx.atribuicao())
-        if atrib:
-            # geralmente the atribuicao is a separate node; visit it
-            self.visit(atrib)
+
         return None
+
 
     # --------------------------
     # If / Else (se)

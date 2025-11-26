@@ -3,6 +3,7 @@
 Este projeto consiste na implementação de um **compilador simples** inspirado na linguagem **Haskell**, desenvolvido como parte de estudos de **compiladores e linguagens formais**.  
 O objetivo é criar um compilador que reconheça e traduza programas escritos em uma linguagem simplificada, contendo **tipos primitivos, estruturas de controle, entrada/saída e expressões**.
 O projeto possui "licenças poéticas", como o while que não é nativo em **Haskell**, reforçando que é um **projeto para faculdade** e que isto foi autorizado pelo professor da matéria.
+Foi implementado a analise semantica de tipos de variáveis e se a variável foi declarada ou não, para registrar tipos e tipagem correta de operadores.
 Foi utilizado para geração de código, C ao invés de Assembly, para fins práticos e por causa do tempo curto para implementação.
 
 

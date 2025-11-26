@@ -14,3 +14,4 @@
 !HaskellVisitor.py
 !CodeGenC.py
 !output.c
+!SemanticAnalyzer.py
